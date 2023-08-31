@@ -9,7 +9,7 @@
   <Identity
     Name="58894AeoliSoft.PopNotes"
     Publisher="CN=9DCC18D1-DC9B-4455-AC89-BFD5F3F34A77"
-    Version="1.0.0.0" />
+    Version="1.0.1.0" />
 
   <Properties>
     <DisplayName>PopNotes</DisplayName>
