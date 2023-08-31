@@ -29,6 +29,7 @@ namespace PopNotesApplication
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             notesListPanel = new System.Windows.Forms.FlowLayoutPanel();
             numMinutes = new System.Windows.Forms.NumericUpDown();
             numSeconds = new System.Windows.Forms.NumericUpDown();
@@ -153,6 +154,7 @@ namespace PopNotesApplication
             Controls.Add(numMinutes);
             Controls.Add(notiButton);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Form1";
             Text = "PopNotes";
